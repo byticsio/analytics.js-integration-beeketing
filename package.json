@@ -11,20 +11,36 @@
   "scripts": {
     "test": "make test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "duo": "0.7.x",
-    "duo-test": "0.2.x",
-    "eslint": "0.x",
-    "eslint-config-segment": "^1.0.7",
-    "mocha-phantomjs": "~3.1.5",
-    "phantomjs": "~1.9.2-2"
+    "@segment/analytics.js-core": "^3.0.0",
+    "@segment/analytics.js-integration-tester": "^2.0.0",
+    "@segment/clear-env": "^1.0.0",
+    "@segment/eslint-config": "^3.1.1",
+    "browserify": "^13.0.0",
+    "browserify-istanbul": "^2.0.0",
+    "eslint": "^2.9.0",
+    "eslint-plugin-mocha": "^2.2.0",
+    "eslint-plugin-require-path-exists": "^1.1.5",
+    "istanbul": "^0.4.3",
+    "karma": "^1.1.0",
+    "karma-browserify": "^5.0.4",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-junit-reporter": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sauce-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "mocha": "^2.2.5",
+    "npm-check": "^5.2.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "watchify": "^3.7.0"
   },
-  "description": "The base integration factory used to create custom analytics integrations for [Analytics.js](https://github.com/segmentio/analytics.js).",
+  "description": "",
   "bugs": {
     "url": "https://github.com/segmentio/analytics.js-integration/issues"
   },
-  "homepage": "https://github.com/segmentio/analytics.js-integration#readme",
+  "homepage": "https://github.com/byticsio/analytics.js-integration-beeketing#readme",
   "main": "index.js",
   "directories": {
     "test": "test"
