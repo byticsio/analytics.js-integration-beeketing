@@ -10,7 +10,7 @@ describe('Beeketing', function() {
   var analytics;
   var beeketing;
   var options = {
-    'token': 'test'
+    token: 'test'
   };
 
   beforeEach(function() {
